@@ -1,15 +1,9 @@
-import { createFileRoute, Link } from '@tanstack/react-router';
-import { ProjectCard } from '@/routes/projects/ProjectCard';
-import {
-  Sidebar,
-  SidebarContent,
-  SidebarHeader,
-  SidebarInset,
-  SidebarMenuButton,
-  SidebarMenuItem,
-  SidebarProvider,
-} from '@/components/ui/sidebar';
-import { projects } from '@/data/projects';
+import { createFileRoute } from '@tanstack/react-router';
+
+import { Sidebar } from '@/components/ui/sidebar';
+import { FloatingMenu } from '@/components/ui/FloatingMenu';
+import { App } from '@/components/ui/App';
+import { Projects } from '@/components/ui/Projects';
 import { Profile } from '@/components/ui/Profile';
 
 export const Route = createFileRoute('/')({
@@ -18,42 +12,16 @@ export const Route = createFileRoute('/')({
 
 function RouteComponent() {
   return (
-    <SidebarProvider>
-      <Sidebar>
-        <SidebarHeader>
-          <SidebarContent>
-            <SidebarMenuItem>
-              <SidebarMenuButton render={<Link to='/' />}>
-                {' '}
-                Home{' '}
-              </SidebarMenuButton>
-              <SidebarMenuButton
-                render={
-                  <a
-                    href='https://github.com/jotvibfeng/portfolio-2-oct22'
-                    target='_blank'
-                    rel='noreferrer'
-                  />
-                }
-              >
-                GitHub
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-          </SidebarContent>
-        </SidebarHeader>
-      </Sidebar>
-
-      <SidebarInset>
+    <>
+      <Sidebar />
+      <FloatingMenu />
+      <section className='mx-auto grid max-w-7xl gap-6 px-6 lg:grid-cols-[minmax(0,28rem)_minmax(0,1fr)] lg:items-start'>
         <Profile />
-        <div className='mx-auto grid min-h-screen max-w-5xl grid-cols-1 gap-6 p-6 sm:grid-cols-2 lg:grid-cols-3'>
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.slug}
-              project={project}
-            />
-          ))}
-        </div>
-      </SidebarInset>
-    </SidebarProvider>
+        <App />
+      </section>
+      <div className='mx-auto max-w-7xl px-6'>
+        <Projects />
+      </div>
+    </>
   );
 }
