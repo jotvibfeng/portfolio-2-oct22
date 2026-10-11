@@ -53,8 +53,8 @@ export const projects: Project[] = [
     teaser: 'A comprehensive project developed during the semester.',
     description:
       'This project showcases the skills and knowledge acquired throughout the semester, combining various technologies and methodologies.',
-    thumbnail: '',
-    image: '',
+    thumbnail: '/images/auction-house.png',
+    image: '/images/auction-house.png',
     imageCaption: 'Overview of the semester project',
     liveUrl: 'https://semster-project-auction-house-9pgf.vercel.app',
     readmeUrl: 'https://github.com/jotvibfeng/Semster-Project-Auction-House',
