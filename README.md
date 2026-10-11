@@ -84,7 +84,7 @@ copy-link action.
 | `/`                              | Home page with profile, introduction, and project teaser cards. |
 | `/projects/css-framework`        | CSS Framework case study.                                       |
 | `/projects/javascript-framework` | JavaScript Framework case study.                                |
-| `/projects/semester-project`     | Semester Project case study.                                    |
+| `/projects/semester-project-2` | Semester Project 2 case study. |
 
 ## Updating project content
 
