@@ -22,7 +22,8 @@ export const projects: Project[] = [
     image: '/images/css-framework.jpeg',
     imageCaption: 'Overview of the CSS framework',
     liveUrl: 'https://css-framework-noroff.vercel.app',
-    readmeUrl: 'https://github.com/jotvibfeng/CSS-Framework-Noroff',
+    readmeUrl:
+      'https://github.com/jotvibfeng/CSS-Framework-Noroff/blob/main/README.md',
     content: [
       'The CSS framework is designed to be lightweight and easy to use.',
       'It includes a set of predefined classes for common UI components.',
@@ -40,7 +41,8 @@ export const projects: Project[] = [
     image: '/images/js-framework.jpeg',
     imageCaption: 'Overview of the JavaScript framework',
     liveUrl: 'https://jsfw-2025-v1-joakim-jsfw-1.vercel.app',
-    readmeUrl: 'https://github.com/NoroffFEU/jsfw-2025-v1-joakim-jsfw-1',
+    readmeUrl:
+      'https://github.com/NoroffFEU/jsfw-2025-v1-joakim-jsfw-1/blob/main/README.md',
     content: [
       'The JavaScript framework is designed to be modular and easy to extend.',
       'It includes a set of utilities for common tasks such as DOM manipulation and event handling.',
@@ -57,7 +59,8 @@ export const projects: Project[] = [
     image: '/images/auction-house.jpeg',
     imageCaption: 'Overview of the semester project',
     liveUrl: 'https://semster-project-auction-house-9pgf.vercel.app',
-    readmeUrl: 'https://github.com/jotvibfeng/Semster-Project-Auction-House',
+    readmeUrl:
+      'https://github.com/jotvibfeng/Semster-Project-Auction-House/blob/main/README.md',
     content: [
       'The semester project integrates multiple technologies learned during the course.',
       'It demonstrates the ability to design, develop, and deploy a complete web application.',
