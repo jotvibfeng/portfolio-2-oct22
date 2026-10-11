@@ -7,10 +7,10 @@ import { Projects } from '@/components/ui/Projects';
 import { Profile } from '@/components/ui/Profile';
 
 export const Route = createFileRoute('/')({
-  component: RouteComponent,
+  component: Homepage,
 });
 
-function RouteComponent() {
+function Homepage() {
   return (
     <>
       <Sidebar />
