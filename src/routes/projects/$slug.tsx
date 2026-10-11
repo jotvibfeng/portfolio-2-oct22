@@ -100,7 +100,7 @@ function RouteComponent() {
           <img
             src={project.image}
             alt={project.title}
-            className='aspect-video w-full object-cover'
+            className='aspect-video w-full bg-black object-contain'
           />
           <figcaption className='border-t border-neutral-600 px-4 py-3 text-sm text-neutral-300'>
             {project.imageCaption}

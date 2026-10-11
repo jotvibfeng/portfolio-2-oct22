@@ -46,7 +46,7 @@ export const Projects = () => {
               <img
                 src={project.thumbnail}
                 alt={project.title}
-                className='aspect-square w-full object-cover transition-transform duration-300 group-hover:scale-105'
+                className='aspect-square w-full bg-black object-contain'
               />
               <div className='flex flex-1 flex-col p-5'>
                 <h3 className='text-xl font-semibold'>{project.title}</h3>

@@ -7,7 +7,6 @@ import {
   Scripts,
 } from '@tanstack/react-router';
 import { StrictMode } from 'react';
-// @ts-expect-error CSS imports are handled by the Vite bundler.
 import '../styles.css';
 
 export const Route = createRootRoute({
