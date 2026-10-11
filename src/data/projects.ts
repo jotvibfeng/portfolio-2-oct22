@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description:
       'This project involves creating a custom CSS framework that simplifies the process of building responsive and visually appealing web pages.',
     thumbnail: '/public/images/css-framework.png',
-    image: '/images/css-framework.jpg',
+    image: '/public/images/css-framework.png',
     imageCaption: 'Overview of the CSS framework',
     liveUrl: 'https://css-framework-noroff.vercel.app',
     readmeUrl: 'https://github.com/jotvibfeng/CSS-Framework-Noroff',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       'A custom JavaScript framework for building dynamic web applications.',
     description:
       'This project involves creating a custom JavaScript framework that simplifies the process of building dynamic and interactive web applications.',
-    thumbnail: '/images/JS-framework.png',
+    thumbnail: '/public/images/JS-framework.png',
     image: '/public/images/JS-framework.png',
     imageCaption: 'Overview of the JavaScript framework',
     liveUrl: 'https://jsfw-2025-v1-joakim-jsfw-1.vercel.app',
