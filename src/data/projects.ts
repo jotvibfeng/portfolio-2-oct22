@@ -18,7 +18,7 @@ export const projects: Project[] = [
     teaser: 'A custom CSS framework for rapid web development.',
     description:
       'This project involves creating a custom CSS framework that simplifies the process of building responsive and visually appealing web pages.',
-    thumbnail: '/images/css-framework-thumbnail.jpg',
+    thumbnail: '/public/images/css-framework.png',
     image: '/images/css-framework.jpg',
     imageCaption: 'Overview of the CSS framework',
     liveUrl: 'https://css-framework-noroff.vercel.app',
@@ -36,8 +36,8 @@ export const projects: Project[] = [
       'A custom JavaScript framework for building dynamic web applications.',
     description:
       'This project involves creating a custom JavaScript framework that simplifies the process of building dynamic and interactive web applications.',
-    thumbnail: '/images/javascript-framework-thumbnail.jpg',
-    image: '/images/javascript-framework.jpg',
+    thumbnail: '/images/JS-framework.png',
+    image: '/public/images/JS-framework.png',
     imageCaption: 'Overview of the JavaScript framework',
     liveUrl: 'https://jsfw-2025-v1-joakim-jsfw-1.vercel.app',
     readmeUrl: 'https://github.com/NoroffFEU/jsfw-2025-v1-joakim-jsfw-1',
